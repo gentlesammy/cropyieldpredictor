@@ -109,9 +109,11 @@ $('#soiltest').submit(function(event) {
                   url: './process.php',
                   type: 'POST',
                   data: soilvalues,
+                  dataType:"json",
                 })
                 .done(function(msg) {
-                  $('#analysis').html(msg);
+                  $('#verdict').html(msg.verdict);
+                  $('#analysis').html(msg.analysis);
 
                 })
 

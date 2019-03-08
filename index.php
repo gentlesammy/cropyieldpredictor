@@ -15,7 +15,7 @@
         <section class="form-area my-5 py-5">
           <div class="container bg-primary px-2 py-5">
             <center>
-              <img src="images/sayemlogo1.png" alt="" class="img-rounded center-block">
+              <p id="logo">CYP</p>
             </center>
             <h1 class="text-center text-white mb-5">CROP YIELD PREDICTER </h1>
               <form class="my-form" id="soiltest" action="process.php" method="POST">
@@ -136,18 +136,18 @@
               </form>
 
               <div class="row my-4">
+                <div class="col-md-5">
+                  <h1 class="text-center">Verdict</h1>
+                  <div class="showverdict" id="verdict">
+                  </div>
+                </div>
                 <div class="col-md-7">
                   <h1 class="text-center">Analysis</h1>
                   <div class="showtext" id="analysis">
                   </div>
                 </div>
 
-                <div class="col-md-5">
-                  <h1 class="text-center">Verdict</h1>
-                  <div class="showverdict">
 
-                  </div>
-                </div>
               </div>
           </div>
         </section>

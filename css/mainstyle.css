@@ -14,7 +14,7 @@ body {
 
 body {
   background-color: green;
-  background:url('../images/pexels-photo-952670.jpeg');
+  background:url('../images/pexels-photo-265216.jpeg');
   background-position: center;
   background-attachment: fixed;
   background-blend-mode: difference;
@@ -207,8 +207,11 @@ form label{
   color:white;
   font-weight: 600;
 }
-img{
-  max-width: 100px !important;
+#logo{
+  width: 100px !important;
+  height:100px;
+  font-size: 30px;
+  padding-top: 35px;
   background:white;
   border-radius: 50px;
   margin: 20px 10px;
